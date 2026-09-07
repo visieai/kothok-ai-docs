@@ -1,0 +1,87 @@
+site_name: Kothok AI Documentation
+site_description: How to set up, run, and get the most from your Kothok AI shop assistant.
+site_url: https://visieai.github.io/kothok-ai-docs/
+repo_url: https://github.com/visieai/kothok-ai-docs
+repo_name: visieai/kothok-ai-docs
+copyright: Copyright &copy; Visie AI
+
+theme:
+  name: material
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+    - toc.follow
+  icon:
+    repo: fontawesome/brands/github
+
+nav:
+  - Home: index.md
+  - Getting started:
+      - How onboarding works: getting-started/overview.md
+      - Connect your store: getting-started/connect-your-store.md
+      - Go-live checklist: getting-started/go-live-checklist.md
+      - Keeping your catalogue current: getting-started/keeping-current.md
+  - The assistant:
+      - What shoppers can ask: assistant/what-it-does.md
+      - Where it works: assistant/channels.md
+      - What it will not do: assistant/limitations.md
+  - Developer guide:
+      - Overview: developer/overview.md
+      - Import methods: developer/import-methods.md
+      - Push API: developer/push-api.md
+      - Product fields: developer/product-fields.md
+      - Feed & CSV columns: developer/feed-csv-columns.md
+      - Install the widget: developer/widget.md
+      - Test the setup: developer/testing.md
+  - FAQ: faq.md
+  - What's coming: roadmap.md
+  - Support: support.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/visieai
