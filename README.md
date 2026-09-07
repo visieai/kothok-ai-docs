@@ -9,7 +9,7 @@ published to GitHub Pages.
 Once published, the site is at:
 
 ```
-https://visieai.github.io/kothok-ai-docs/
+https://docs.kothok.ai/
 ```
 
 > **Note on GitHub Pages and private repos.** GitHub Pages on a private repo needs a
