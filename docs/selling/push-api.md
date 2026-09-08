@@ -8,7 +8,7 @@ there is no sync step.
 
 The shop owner does this from the dashboard while logged in. It calls:
 
-```
+```http
 POST /stores/push/token
 ```
 
@@ -28,7 +28,7 @@ but do not split the token or use that number yourself. Send the whole string.
 
 ## Step 2: send products
 
-```
+```http
 POST /stores/push
 X-Ingest-Token: 42.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 Content-Type: application/json

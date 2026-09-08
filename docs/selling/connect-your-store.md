@@ -45,7 +45,7 @@ We read the file and show you how many rows we found, how many we skipped and wh
 and the first few products as they will look. Check the skipped rows — that is when
 to catch a wrong column, before a shopper sees it.
 
-The column names we look for are in [Feed & CSV columns](../developer/feed-csv-columns.md).
+The column names we look for are in [Feed & CSV columns](feed-csv-columns.md).
 
 ## Feed
 
@@ -56,7 +56,7 @@ time a sync runs.
 ## Push
 
 For custom-built shops, or shops where prices change often. Your developer sends
-products to us over an API. See the [Push API](../developer/push-api.md).
+products to us over an API. See the [Push API](push-api.md).
 
 ## After you connect
 

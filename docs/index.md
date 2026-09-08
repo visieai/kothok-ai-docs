@@ -1,54 +1,58 @@
-# Kothok AI
+# Welcome to Kothok AI
 
-Kothok AI is a shopping assistant for your online store. It talks to your shoppers
-in plain language, finds the products they ask for, and answers questions about
-those products using your own customer reviews.
+Kothok AI is a chat assistant for your business. You add it to your website and your
+chat apps, and it talks to your visitors in plain language — day and night, without
+you having to be there.
 
-This site covers everything: how to connect your store, how to check it before
-shoppers see it, how to keep it up to date, and how a developer can plug it in.
+This site explains everything: what the assistant can do, how to set it up, and how
+to get the most out of it. It is written in simple words. You do not need to be
+technical to follow it.
 
-## Who this is for
+## What the assistant can do
 
-- **Shop owners.** Start with [Getting started](getting-started/overview.md). No
-  technical knowledge needed.
-- **Developers.** Go to the [Developer guide](developer/overview.md) for the import
-  API, product fields, and the widget script.
+Kothok AI does four main jobs. You can turn on the ones you need.
 
-## What it does
+- **Answer questions.** It learns about your business from what you give it — your
+  website, your files, your FAQs — and answers your visitors from that. See
+  [Train your assistant](knowledge-base/overview.md).
+- **Sell products.** It reads your product list and helps shoppers find what they
+  want, with photos, prices, and a link to buy. See [Selling products](selling/overview.md).
+- **Book meetings.** It offers free times from your calendar and books the meeting
+  for you. See [Booking meetings](appointments/overview.md).
+- **Hand over to a human.** When a person needs to step in, one of your team can
+  reply in the same chat, and the assistant steps back. See
+  [Conversations & the inbox](conversations/inbox.md).
 
-A shopper types the way they talk:
+## Where it works
 
-> "waterproof running shoes under 3000 taka, size 42"
+The assistant works in more than one place, and gives the same answers everywhere:
 
-The assistant reads your product list and replies with a short line, then shows the
-matching products as cards — photo, price, whether it is in stock, and a link
-straight to the product page.
+- **Your website** — through a small chat box (the "widget") you add to your site.
+- **WhatsApp** — on your business WhatsApp number.
+- **Facebook Messenger** — on your Facebook page.
 
-It also answers questions about how good a product is, using your real customer
-reviews. If your reviews say the sizing runs small, that is what it tells the
-shopper. It does not make up an opinion.
+See [Channels](channels/overview.md) for how each one is set up.
 
-## What it will not do
+## Who this guide is for
 
-A few things to know before you start, so nothing surprises you later:
+- **Business owners and their team.** Start with [Getting started](getting-started/overview.md).
+  No technical knowledge needed.
+- **Developers.** For the product-import API and the widget script, see the
+  [Developer guide](developer/overview.md).
 
-- **It never makes up a product.** If you do not sell it, the assistant says so.
-- **It cannot track orders.** "Where is my order?" is not a question it answers yet.
-- **It does not show a discount as a discount.** A sale price becomes part of a
-  price range, not a "was / now" label.
-- **It does not update itself yet.** You press **Sync** after you change prices or
-  stock. See [Keeping your catalogue current](getting-started/keeping-current.md).
+## A quick tour of the guide
 
-Full detail is in [What it will not do](assistant/limitations.md).
+| Section | What it covers |
+|---|---|
+| [Getting started](getting-started/overview.md) | Sign up, the dashboard, and adding the assistant to your site |
+| [Train your assistant](knowledge-base/overview.md) | Give it the knowledge to answer questions |
+| [Selling products](selling/overview.md) | Turn it into a shopping assistant |
+| [Booking meetings](appointments/overview.md) | Let it book meetings on your calendar |
+| [Conversations & inbox](conversations/inbox.md) | Read chats, capture leads, reply as a human |
+| [Channels](channels/overview.md) | Website, WhatsApp, Messenger |
+| [Customize the widget](widget/install.md) | Change how the chat box looks |
+| [Plans & billing](billing/plans.md) | Plans, add-ons, and how to pay |
+| [Developer guide](developer/overview.md) | API and widget details |
+| [FAQ](faq.md) | Quick answers |
 
-## The short path to going live
-
-1. [Give us your store's web address.](getting-started/connect-your-store.md)
-2. Confirm one of your products looks right.
-3. We bring in the rest.
-4. [Run the go-live checklist](getting-started/go-live-checklist.md) together.
-5. [Install the widget](developer/widget.md) on your site.
-
-## Need help?
-
-See [Support](support.md).
+New here? The best place to begin is [Getting started](getting-started/overview.md).

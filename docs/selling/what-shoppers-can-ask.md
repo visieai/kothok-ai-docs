@@ -31,7 +31,7 @@ The answer comes from your reviews, not from an opinion the assistant made up. I
 your reviews say the sizing runs small, that is what it tells the shopper.
 
 !!! note
-    Review answers work only for [Website and Feed](../getting-started/connect-your-store.md)
+    Review answers work only for [Website and Feed](connect-your-store.md)
     stores, because reviews are read off your product pages.
 
 ## When it cannot find a match

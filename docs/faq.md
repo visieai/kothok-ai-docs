@@ -1,67 +1,73 @@
 # FAQ
 
+Quick answers to common questions. For more detail, follow the links.
+
 ## About the assistant
 
-**Will it recommend a competitor's product?**
-No. It only ever sees your catalogue.
+**Where does the assistant get its answers?**
+From the knowledge you give it — your website, files, and custom answers. It does not
+make things up. See [Train your assistant](knowledge-base/overview.md).
 
-**What happens if it does not understand?**
-It says it did not find a match. It does not guess.
+**What if it does not know the answer?**
+It says it does not have that information rather than guessing. You can then add the
+answer so it knows next time. See [Keep it updated](knowledge-base/keep-updated.md).
 
-**Can I turn it off?**
-Yes, at any time. Your store can be disconnected and the assistant goes back to
-answering only your general questions.
+**Can a human take over a chat?**
+Yes. Anyone on your team can reply in the same chat, and the assistant steps back.
+See [Reply as a human](conversations/live-agent.md).
 
-**Does it change my website?**
-No. We read your product pages the way a shopper's browser does. Nothing is written
-to your site.
-
-**Do you store my product photos?**
-No. The cards load photos straight from your own site, so if you change a photo it
-follows along.
+**Does it work in more than one language?**
+The assistant replies in the language your knowledge is written in and can understand
+common questions in other languages. For specific language needs, contact
+[Support](support.md).
 
 ## Setting up
 
-**What do you need to start?**
-Just your store's web address. See [How onboarding works](getting-started/overview.md).
+**How do I start?**
+Sign up, train the assistant, and add the chat box to your site. See
+[Getting started](getting-started/overview.md).
 
-**Can I use more than one product source at once?**
-No. A store uses one source at a time. Switching to a new one replaces the old one.
-We cannot join two lists together.
+**Do I need a developer?**
+No, for most setup. The only code is one line pasted into your website, which a
+developer can do in a minute. See [Install the widget](getting-started/install-widget.md).
 
-**My site cannot be read automatically. What now?**
-Export your products as a CSV and upload it, or use a feed or the Push API. See
-[Connect your store](getting-started/connect-your-store.md).
+**Which channels are supported?**
+Website, WhatsApp, Messenger, and Instagram. See [Channels](channels/overview.md).
 
-**Does it answer review questions?**
-Only for Website and Feed stores, because reviews are read off your product pages.
-File and Push stores get product search but no review answers.
+## Meetings
 
-## Prices and stock
+**Can the assistant book meetings?**
+Yes, using your Google Calendar. It offers your free times and books the meeting. See
+[Booking meetings](appointments/overview.md).
 
-**Why is the assistant quoting an old price?**
-It does not refresh on its own. Press **Sync** after a price change, or ask us to
-run a daily sync for you. See
-[Keeping your catalogue current](getting-started/keeping-current.md).
+**Can it cancel or move a meeting?**
+Manage changes on the **Meetings** page or in your Google Calendar. See
+[Manage your bookings](appointments/manage-bookings.md).
 
-**Can it show a sale as "was / now"?**
-Not yet. A sale price becomes part of a price range instead. Tell us before a
-campaign. See [What it will not do](assistant/limitations.md).
+## Plans and billing
+
+**How many conversations do I get?**
+It depends on your plan, from 50 a month on Free upward. See [Plans](billing/plans.md)
+and [Usage & limits](billing/usage-and-limits.md).
+
+**What counts as a conversation?**
+The first message in a chat. Later messages in the same chat do not count again. See
+[Usage & limits](billing/usage-and-limits.md).
+
+**How do I pay?**
+In BDT (bKash, Nagad, cards) or USD (cards). See [How to pay](billing/payments.md).
+
+**Can I add more conversations without upgrading?**
+Yes, buy an add-on pack. See [Add-ons](billing/add-ons.md).
+
+**Can I invite my team?**
+Yes, on Growth and higher plans. See [Team members & roles](team/members-roles.md).
+
+## Online stores
+
+**Can it sell products?**
+Yes. It reads your product list and shows shoppers matching products. See
+[Selling products](selling/overview.md).
 
 **Can it tell a shopper where their order is?**
-No. Order tracking is not built.
-
-## For developers
-
-**Which import method should I use?**
-Website or File if you can — they need no code. Feed if the shop already publishes
-one. Push for custom shops or fast-changing prices. See
-[Import methods](developer/import-methods.md).
-
-**Is there a Shopify or WooCommerce app?**
-Not yet. A Shopify store is read by crawling its pages today. For exact stock, use
-[Push](developer/push-api.md).
-
-**Why did my push return `200` but some products are missing?**
-Check the `failed` count in the response, not just the HTTP status. See the
-[Push API](developer/push-api.md).
+No. Order tracking is not built yet. See [What it will not do](selling/limitations.md).

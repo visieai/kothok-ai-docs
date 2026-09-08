@@ -45,5 +45,5 @@ matters most of all.
 
 You are ready to go live. Next:
 
-- [Install the widget](../developer/widget.md) on your site.
+- [Install the widget](../widget/install.md) on your site.
 - Set your plan for [keeping the catalogue current](keeping-current.md).

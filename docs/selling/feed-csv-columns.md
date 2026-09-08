@@ -36,4 +36,4 @@ If a row has both a normal price and a sale price, the two become the ends of a
 range. A product at 3000 on sale for 1500 is stored as 1500 to 3000.
 
 It is never shown as "was 3000, now 1500," and nothing is marked as on sale. Keep
-that in mind during a campaign. See [What it will not do](../assistant/limitations.md).
+that in mind during a campaign. See [What it will not do](limitations.md).

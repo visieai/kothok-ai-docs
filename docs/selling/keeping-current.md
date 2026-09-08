@@ -29,7 +29,7 @@ updates prices, stock, and any new or removed products.
   arrive a little later.
 
 !!! note "Push stores are different"
-    If your developer uses [Push](../developer/push-api.md), there is no Sync step.
+    If your developer uses [Push](push-api.md), there is no Sync step.
     Products are updated the moment they are sent. The Sync button does nothing for
     a Push store.
 

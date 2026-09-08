@@ -18,30 +18,30 @@ published to GitHub Pages.
 
 ### Page structure
 
+The site has two audiences: general business customers (the main path) and online
+stores (the self-contained `selling/` section).
+
 ```
 docs/
-├── index.md                     # landing page
-├── getting-started/             # for shop owners: onboarding → go-live
-│   ├── overview.md
-│   ├── connect-your-store.md
-│   ├── go-live-checklist.md
-│   └── keeping-current.md
-├── assistant/                   # how the assistant behaves
-│   ├── what-it-does.md
-│   ├── channels.md
-│   └── limitations.md
-├── developer/                   # for developers: import API + widget
-│   ├── overview.md
-│   ├── import-methods.md
-│   ├── push-api.md
-│   ├── product-fields.md
-│   ├── feed-csv-columns.md
-│   ├── widget.md
-│   └── testing.md
+├── index.md                # what Kothok AI is
+├── getting-started/        # sign up, dashboard, install the widget
+├── knowledge-base/         # train the assistant to answer questions
+├── appointments/           # book meetings via Google Calendar
+├── conversations/          # inbox, live-agent reply, leads
+├── channels/               # website, WhatsApp, Messenger, Instagram
+├── widget/                 # customize the chat widget
+├── selling/                # online stores: onboarding + product-import API
+├── billing/                # plans, usage, add-ons, payments, discounts
+├── team/                   # members & roles
+├── developer/              # developer hub (widget + store API pointers)
 ├── faq.md
 ├── roadmap.md
 └── support.md
 ```
+
+The writing follows the `technical-writer` skill (structure, headings, links) and,
+for plain wording, the `ste100-writer` skill. Validate with
+`python3 <skill>/scripts/validate_markdown.py docs`.
 
 ## Edit the docs
 

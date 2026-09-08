@@ -29,13 +29,13 @@ It never says "was 3000, now 1500," and it never marks anything as on sale.
 
 The assistant knows your products as they were at the last sync. You press **Sync**
 after you change prices or stock. See
-[Keeping your catalogue current](../getting-started/keeping-current.md).
+[Keeping your catalogue current](keeping-current.md).
 
 ## No exact stock on some Shopify stores
 
 A Shopify store read through the website has its sizes and stock read from the page,
 which is a best guess, not an exact figure. For exact stock, use
-[Push](../developer/push-api.md).
+[Push](push-api.md).
 
 ## Common questions
 

@@ -39,22 +39,53 @@ theme:
 nav:
   - Home: index.md
   - Getting started:
-      - How onboarding works: getting-started/overview.md
-      - Connect your store: getting-started/connect-your-store.md
-      - Go-live checklist: getting-started/go-live-checklist.md
-      - Keeping your catalogue current: getting-started/keeping-current.md
-  - The assistant:
-      - What shoppers can ask: assistant/what-it-does.md
-      - Where it works: assistant/channels.md
-      - What it will not do: assistant/limitations.md
-  - Developer guide:
-      - Overview: developer/overview.md
-      - Import methods: developer/import-methods.md
-      - Push API: developer/push-api.md
-      - Product fields: developer/product-fields.md
-      - Feed & CSV columns: developer/feed-csv-columns.md
-      - Install the widget: developer/widget.md
-      - Test the setup: developer/testing.md
+      - Getting started: getting-started/overview.md
+      - First-time setup: getting-started/first-setup.md
+      - Dashboard tour: getting-started/dashboard-tour.md
+      - Install the widget: getting-started/install-widget.md
+  - Train your assistant:
+      - Overview: knowledge-base/overview.md
+      - Add knowledge: knowledge-base/add-knowledge.md
+      - Keep it updated: knowledge-base/keep-updated.md
+  - Booking meetings:
+      - Overview: appointments/overview.md
+      - Connect your calendar: appointments/connect-calendar.md
+      - Manage your bookings: appointments/manage-bookings.md
+  - Conversations & inbox:
+      - The inbox: conversations/inbox.md
+      - Reply as a human: conversations/live-agent.md
+      - Leads: conversations/leads.md
+  - Channels:
+      - Overview: channels/overview.md
+      - Website widget: channels/website.md
+      - WhatsApp: channels/whatsapp.md
+      - Messenger: channels/messenger.md
+      - Instagram: channels/instagram.md
+  - Customize the widget:
+      - Overview: widget/install.md
+      - Widget options: widget/options.md
+      - Branding & "Powered by": widget/branding.md
+  - Selling products (online stores):
+      - Overview: selling/overview.md
+      - Connect your store: selling/connect-your-store.md
+      - Go-live checklist: selling/go-live-checklist.md
+      - Keeping your catalogue current: selling/keeping-current.md
+      - What shoppers can ask: selling/what-shoppers-can-ask.md
+      - What it will not do: selling/limitations.md
+      - "For developers: import methods": selling/import-methods.md
+      - "For developers: Push API": selling/push-api.md
+      - "For developers: product fields": selling/product-fields.md
+      - "For developers: file & feed columns": selling/feed-csv-columns.md
+      - "For developers: test the setup": selling/testing.md
+  - Plans & billing:
+      - Plans: billing/plans.md
+      - Usage & limits: billing/usage-and-limits.md
+      - Add-ons: billing/add-ons.md
+      - How to pay: billing/payments.md
+      - Discount codes: billing/discounts.md
+  - Team:
+      - Members & roles: team/members-roles.md
+  - Developer guide: developer/overview.md
   - FAQ: faq.md
   - What's coming: roadmap.md
   - Support: support.md

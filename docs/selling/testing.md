@@ -27,5 +27,5 @@ sends. See [Product fields](product-fields.md).
   has nothing like that, not offer something else.
 - **Currency.** Make sure prices show in the money you expect.
 
-These match the owner's [go-live checklist](../getting-started/go-live-checklist.md).
+These match the owner's [go-live checklist](go-live-checklist.md).
 Run both.

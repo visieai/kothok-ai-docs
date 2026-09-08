@@ -1,49 +1,33 @@
-# Developer guide overview
+# Developer guide
 
-This guide is for the developer connecting a shop to the Kothok assistant.
+This page points developers to the technical parts of the documentation. Kothok AI
+needs very little code — most setup happens in the dashboard — but two tasks may
+reach a developer.
 
-There are two jobs:
+## Add the chat widget to a site
 
-1. **Get the products in**, so the assistant knows what the shop sells.
-2. **Put the widget on the site**, so shoppers can ask.
+The widget is one `<script>` tag pasted before the closing `</body>` tag. You can
+change its look with `data-*` attributes.
 
-Either order works, but the widget is not much use until the products are in.
+* [Install the widget](../getting-started/install-widget.md) — the snippet and where
+  it goes.
+* [Widget options](../widget/options.md) — the full list of `data-*` attributes.
 
-## Do you even need a developer?
+## Connect a product catalogue (online stores)
 
-Two of the four import methods need no code:
+If the business is an online store, the assistant can show products in chat. There
+are four ways to send products in, including a product API. All of it is in the
+store section:
 
-- **Website** — the owner does it from the dashboard.
-- **File** — the owner uploads a CSV from the dashboard.
+* [How products get in (import methods)](../selling/import-methods.md)
+* [Product API (Push)](../selling/push-api.md)
+* [Product fields](../selling/product-fields.md)
+* [File & feed columns](../selling/feed-csv-columns.md)
+* [Test the setup](../selling/testing.md)
 
-If one of those fits, point the owner at the dashboard and you are done. You are
-needed for the other two:
+## What is not available
 
-- **Feed** — give us the feed address once. See [Import methods](import-methods.md).
-- **Push** — an API integration. See the [Push API](push-api.md).
-
-## The rest of this guide
-
-- [Import methods](import-methods.md) — pick how products get in.
-- [Push API](push-api.md) — send products over an API.
-- [Product fields](product-fields.md) — the fields on a product, and the four to
-  get right.
-- [Feed & CSV columns](feed-csv-columns.md) — the column names we read.
-- [Install the widget](widget.md) — the script tag and its options.
-- [Test the setup](testing.md) — six checks before shoppers arrive.
-
-## Things to know up front
-
-These affect what you build, so read them before you start.
-
-- **A store uses one import method at a time.** Picking a new one replaces the old.
-  You cannot join two catalogues.
-- **Nothing re-reads a feed on its own yet.** A feed is read when a sync runs, and a
-  sync is started from the dashboard, not on a timer. If prices change often, use
-  Push, which is live as soon as you call it.
-- **Reviews are read only off the product page.** Website and Feed stores get review
-  answers. Push and File stores do not. There is no way to send us reviews yet.
-- **There is no Shopify or WooCommerce API adapter.** A Shopify shop is read by
-  crawling the pages, which guesses at sizes and stock. For exact stock, use Push.
-- **There is no order tracking.** No endpoint, no field. Do not build anything that
-  assumes it.
+* **No order-tracking API.** The assistant cannot look up order status. Do not build
+  anything that depends on it.
+* **No Shopify or WooCommerce app.** Online stores are read from the website, a file,
+  a feed, or the product API. See [How products get in](../selling/import-methods.md).

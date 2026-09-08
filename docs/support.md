@@ -1,31 +1,35 @@
 # Support
 
-## Before you contact us
+## Find an answer first
 
-Many questions are answered here:
+Many questions are already answered in this guide:
 
-- Setting up: [How onboarding works](getting-started/overview.md)
-- Old prices showing: [Keeping your catalogue current](getting-started/keeping-current.md)
-- What it cannot do: [What it will not do](assistant/limitations.md)
-- Developer questions: [Developer guide](developer/overview.md)
-- Quick answers: [FAQ](faq.md)
+* Getting set up: [Getting started](getting-started/overview.md)
+* Training the assistant: [Train your assistant](knowledge-base/overview.md)
+* Meetings: [Booking meetings](appointments/overview.md)
+* Channels: [Channels](channels/overview.md)
+* Plans and payment: [Plans & billing](billing/plans.md)
+* Online stores: [Selling products](selling/overview.md)
+* Quick answers: [FAQ](faq.md)
 
-## Get in touch
+## Contact us
 
-<!-- TODO: replace with your real support channel. -->
+<!-- TODO: confirm the public support channel before sharing widely. -->
 
-- **Email:** support@example.com
-- **Website:** https://kothok.ai
+* **Email:** support@kothok.ai
+* **Website:** https://kothok.ai
 
-When you write to us, it helps to include:
+## What to include
 
-- your store's web address,
-- which import method you use (Website, File, Feed, or Push),
-- what you expected and what happened instead,
-- a screenshot if the assistant showed something wrong.
+To help us answer quickly, tell us:
 
-## Tell us before a campaign
+* Your company name and the email you signed up with.
+* Which channel the problem is on (website, WhatsApp, Messenger, or Instagram).
+* What you expected and what happened instead.
+* A screenshot, if the assistant showed something wrong.
 
-If you are about to run a sale, tell us first. The assistant does not show a
-discount as "was / now" yet, so we will check how your prices will read before
-shoppers see them. See [What it will not do](assistant/limitations.md).
+## For online stores
+
+If you are about to run a sale, tell us first. The assistant does not show a discount
+as "was / now" yet, so we check how your prices will read before shoppers see them.
+See [What it will not do](selling/limitations.md).
