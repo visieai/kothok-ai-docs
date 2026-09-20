@@ -1,0 +1,79 @@
+site_name: Kothok AI Developer Docs
+site_description: Integration reference for developers — install the chat widget and send a product catalogue.
+site_url: https://docs.kothok.ai/
+repo_url: https://github.com/visieai/kothok-ai-docs
+repo_name: visieai/kothok-ai-docs
+copyright: Copyright &copy; Kothok AI
+
+theme:
+  name: material
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+    - toc.follow
+  icon:
+    repo: fontawesome/brands/github
+
+nav:
+  - Home: index.md
+  - Developer guide: developer/overview.md
+  - Widget:
+      - Install the widget: widget/install.md
+      - Widget options: widget/options.md
+  - Product catalogue:
+      - Import methods: developer/import-methods.md
+      - Product API (Push): developer/push-api.md
+      - Product fields: developer/product-fields.md
+      - File & feed columns: developer/feed-csv-columns.md
+      - Test the setup: developer/testing.md
+  - Support: support.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/visieai
